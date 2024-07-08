@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "flint_blade_from_quartzite.recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "xov:flint_shard"
+      },
+      "B": {
+        "item": "xov:quartzite_chunk"
+      }
+    },
+    "result": [
+      {
+        "item": "xov:flint_blade"
+      }
+    ]
+  }
+}

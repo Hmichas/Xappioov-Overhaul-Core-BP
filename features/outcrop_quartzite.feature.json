@@ -1,0 +1,35 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "xov:outcrop_quartzite.feature"
+    },
+    "places_block": "xov:outcrop_quartzite",
+    "enforce_survivability_rules": true,
+    "enforce_placement_rules": true,
+    "may_replace": [
+      "minecraft:air",
+      "minecraft:tall_grass",
+      "minecraft:short_grass",
+      "minecraft:fern",
+      "minecraft:large_fern"
+    ],
+    "may_attach_to": {
+      "min_sides_must_attach": 1,
+      "bottom": [
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:clay",
+        "minecraft:podzol",
+        "minecraft:mycelium",
+        "minecraft:dirt_with_roots",
+        "minecraft:stone",
+        "minecraft:sand",
+        "minecraft:sandstone",
+        "minecraft:red_sandstone",
+        "minecraft:hardened_clay",
+        "minecraft:mud"
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xov:outcrop_quartzite",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.grass"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.xov.outcrop_quartzite.name",
+      "minecraft:collision_box": {
+        "origin": [
+          -2,
+          0,
+          -1.8
+        ],
+        "size": [
+          4,
+          2,
+          3.9
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -2,
+          0,
+          -1.8
+        ],
+        "size": [
+          4,
+          2,
+          3.9
+        ]
+      },
+      "minecraft:destructible_by_mining": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 10
+      },
+      "minecraft:geometry": "geometry.outcrop_quartzite",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "outcrop_quartzite",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:map_color": "#ffffff",
+      "minecraft:loot": "loot_tables/blocks/outcrop_quartzite.loot.json",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:on_interact": {
+        "event": "pick"
+      }
+    },
+    "events": {
+      "pick": {
+        "run_command": {
+          "command": [
+            "playsound dig.stone @a [r=5] ~~~ 0.5",
+            "gamerule sendcommandfeedback false",
+            "function outcrop_quartzite",
+            "gamerule sendcommandfeedback true",
+            "setblock ~~~ air"
+          ]
+        }
+      }
+    }
+  }
+}

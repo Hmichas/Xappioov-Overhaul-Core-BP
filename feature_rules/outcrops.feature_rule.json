@@ -1,0 +1,43 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "xov:outcrops.feature_rule",
+      "places_feature": "xov:outcrops.feature"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": {
+        "all_of": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "overworld"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 15,
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz) + 0"
+    }
+  }
+}

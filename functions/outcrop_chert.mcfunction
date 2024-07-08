@@ -1,0 +1,1 @@
+execute as @p at @s run loot spawn ~~~ loot "blocks/outcrop_chert.loot"

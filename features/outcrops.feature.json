@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "xov:outcrops.feature"
+    },
+    "features": [
+      [
+        "xov:outcrop_chert.feature",
+        2
+      ],
+      [
+        "xov:outcrop_granite.feature",
+        3
+      ],
+      [
+        "xov:outcrop_quartzite.feature",
+        4
+      ]
+    ]
+  }
+}

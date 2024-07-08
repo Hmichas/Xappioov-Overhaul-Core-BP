@@ -1,0 +1,53 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["Xappioov"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.0.4", "1.1.0"],
+			"blockbench_block_wizard": ["1.2.2"]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [1, 21, 0],
+		"uuid": "a1622f77-6176-4f9e-a001-73ee0825b257",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "1760bd6b-8146-4ded-b06b-05154dbdf34d",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "93ba7cb7-a322-418c-90a1-6d02a225c17b",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "61533a77-4b2d-4304-a246-017a70e760da",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.12.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-admin",
+			"version": "1.0.0-beta"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xov:outcrop_granite",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.grass"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.xov.outcrop_granite.name",
+      "minecraft:collision_box": {
+        "origin": [
+          -2,
+          0,
+          -2.1
+        ],
+        "size": [
+          4,
+          2,
+          4.2
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -2,
+          0,
+          -2.1
+        ],
+        "size": [
+          4,
+          2,
+          4.2
+        ]
+      },
+      "minecraft:destructible_by_mining": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 10
+      },
+      "minecraft:geometry": "geometry.outcrop_granite",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "outcrop_granite",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:map_color": "#ffffff",
+      "minecraft:loot": "loot_tables/blocks/outcrop_granite.loot.json",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:on_interact": {
+        "event": "pick"
+      }
+    },
+    "events": {
+      "pick": {
+        "run_command": {
+          "command": [
+            "playsound dig.stone @a [r=5] ~~~ 0.5",
+            "gamerule sendcommandfeedback false",
+            "function outcrop_granite",
+            "gamerule sendcommandfeedback true",
+            "setblock ~~~ air"
+          ]
+        }
+      }
+    }
+  }
+}
