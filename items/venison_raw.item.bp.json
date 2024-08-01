@@ -2,18 +2,18 @@
 	"format_version": "1.20.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "xov:cooked_venison",
+			"identifier": "xov:venison_raw",
 			"menu_category": {
 				"category": "items",
-                "group": "itemGroup.name.cookedFood"
+				"group": "itemGroup.name.rawFood"
 			}
 		},
 		"components": {
 			"minecraft:max_stack_size": 64,
-			"minecraft:icon": "xov_cooked_venison",
+			"minecraft:icon": "xov_venison_raw",
 			"minecraft:food": {
-				"nutrition": 6,
-				"saturation_modifier": 2.0
+				"nutrition": 3,
+				"saturation_modifier": 0.5
 			},
 			"minecraft:use_modifiers": {
 				"movement_modifier": 0.32,
