@@ -2,26 +2,25 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "flint_blade_from_quartzite.recipe"
+      "identifier": "flint_blade_using_hammerstone.recipe"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "AB"
+      "B ",
+      " A"
     ],
     "key": {
       "A": {
-        "item": "xov:flint_shard"
+        "item": "xov:flint_handaxe"
       },
       "B": {
-        "item": "xov:quartzite_chunk"
+        "tag": "xov:hammerstone"
       }
     },
-    "result": [
-      {
-        "item": "xov:flint_blade"
-      }
-    ]
+    "result": {
+      "item": "xov:flint_blade"
+    }
   }
 }

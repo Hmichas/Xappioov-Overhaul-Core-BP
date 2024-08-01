@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "flint_handaxe_using_hammerstone.recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B ",
+      " A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:flint"
+      },
+      "B": {
+        "tag": "xov:hammerstone"
+      }
+    },
+    "result": {
+      "item": "xov:flint_handaxe"
+    }
+  }
+}
