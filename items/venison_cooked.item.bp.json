@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "xov:venison_cooked",
 			"menu_category": {
-				"category": "items",
+				"category": "equipment",
                 "group": "itemGroup.name.cookedFood"
 			}
 		},

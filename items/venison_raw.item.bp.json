@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "xov:venison_raw",
 			"menu_category": {
-				"category": "items",
+				"category": "nature",
 				"group": "itemGroup.name.rawFood"
 			}
 		},
