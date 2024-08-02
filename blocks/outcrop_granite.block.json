@@ -46,7 +46,7 @@
         }
       },
       "minecraft:map_color": "#ffffff",
-      "minecraft:loot": "loot_tables/blocks/outcrop_granite.loot.json",
+      "minecraft:loot": "loot_tables/blocks/outcrops/outcrop_granite.loot.json",
       "minecraft:placement_filter": {
         "conditions": [
           {
