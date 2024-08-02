@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xov:chert_chunk"
+    },
+    "components": {
+      "minecraft:max_stack_size": 16,
+      "minecraft:use_animation": "bow",
+      "minecraft:throwable": {
+        "do_swing_animation": true,
+        "launch_power_scale": 1,
+        "max_draw_duration": 2,
+        "max_launch_power": 5,
+        "min_draw_duration": 0,
+        "scale_power_by_draw_duration": true
+      },
+      "minecraft:projectile": {
+        "minimum_critical_power": 3,
+        "projectile_entity": "xov:chert_chunk.entity"
+      },
+      "minecraft:icon": "xov_chert_chunk"
+    }
+  }
+}
