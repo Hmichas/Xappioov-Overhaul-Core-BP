@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
       "description": {
-        "identifier": "sinew_from_meat_x1.recipe"
+        "identifier": "sinew_from_meat_x2.recipe"
       },
       "tags": [
         "crafting_table"
