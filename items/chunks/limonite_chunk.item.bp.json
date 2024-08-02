@@ -6,7 +6,12 @@
     },
     "components": {
       "minecraft:max_stack_size": 16,
-      "minecraft:icon": "xov_limonite_chunk"
+      "minecraft:icon": "xov_limonite_chunk",
+      "minecraft:tags": {
+        "tags": [
+          "xov:chunks"
+        ]
+      }
     }
   }
 }

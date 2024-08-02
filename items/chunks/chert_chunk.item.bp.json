@@ -19,7 +19,12 @@
         "minimum_critical_power": 3,
         "projectile_entity": "xov:chert_chunk.entity"
       },
-      "minecraft:icon": "xov_chert_chunk"
+      "minecraft:icon": "xov_chert_chunk",
+      "minecraft:tags": {
+        "tags": [
+          "xov:chunks"
+        ]
+      }
     }
   }
 }

@@ -21,6 +21,7 @@
       "minecraft:icon": "xov_granite_chunk",
       "minecraft:tags": {
         "tags": [
+          "xov:chunks",
           "xov:hammerstone"
         ]
       }
