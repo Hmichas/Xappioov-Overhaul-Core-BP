@@ -1,1 +1,1 @@
-execute as @p at @s run loot spawn ~~~ loot "blocks/outcrop_chert.loot"
+execute as @p at @s run loot spawn ~~~ loot "blocks/outcrops/outcrop_chert.loot"
