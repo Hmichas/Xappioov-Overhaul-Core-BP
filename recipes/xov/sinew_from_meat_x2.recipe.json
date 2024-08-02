@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "sinew_from_meat_x1.recipe"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "B ",
+        " A"
+      ],
+      "key": {
+        "A": {
+          "tag": "minecraft:is_meat"
+        },
+        "B": {
+          "item": "xov:flint_blade"
+        }
+      },
+      "result": {
+        "item": "xov:sinew",
+        "data": 2,
+        "count": 2
+      }
+    }
+  }

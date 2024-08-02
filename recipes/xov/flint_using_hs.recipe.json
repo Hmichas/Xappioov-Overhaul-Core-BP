@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "flint_using_hammerstone.recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B ",
+      " A"
+    ],
+    "key": {
+      "A": {
+        "item": "xov:chert_chunk"
+      },
+      "B": {
+        "tag": "xov:hammerstone"
+      }
+    },
+    "result": {
+      "item": "minecraft:flint"
+    }
+  }
+}

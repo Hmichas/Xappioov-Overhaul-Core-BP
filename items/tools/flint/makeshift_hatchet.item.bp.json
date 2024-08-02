@@ -2,13 +2,14 @@
   "format_version": "1.20.80",
   "minecraft:item": {
     "description": {
-      "identifier": "xov:flint_handaxe",
+      "identifier": "xov:makeshift_hatchet",
       "menu_category": {
-        "category": "equipment"
+        "category": "equipment",
+        "group": "itemGroup.name.axe"
       }
     },
     "components": {
-      "minecraft:max_stack_size": 16,
+      "minecraft:max_stack_size": 1,
       "minecraft:damage": {
         "value": 3
       },
@@ -19,18 +20,18 @@
             "block": {
               "tags": "q.any_tag('wood')"
             },
-            "speed": 1.5
+            "speed": 2
           }
         ]
       },
       "minecraft:durability": {
+        "max_durability": 44,
         "damage_chance": {
-          "min": 10,
-          "max": 50
-        },
-        "max_durability": 36
+          "min": 1,
+          "max": 4
+        }
       },
-      "minecraft:icon": "xov_flint_handaxe"
+      "minecraft:icon": "xov_makeshift_hatchet"
     }
   }
 }

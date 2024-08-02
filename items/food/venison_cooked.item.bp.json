@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xov:venison_cooked",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.cookedFood"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": "xov_venison_cooked",
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": 2
+      },
+      "minecraft:use_modifiers": {
+        "movement_modifier": 0.32,
+        "use_duration": 1.5
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_meat"
+        ]
+      }
+    }
+  }
+}

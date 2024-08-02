@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.50",
+  "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
       "identifier": "flint_handaxe_using_hammerstone.recipe"

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cordage.recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " s",
+      "s "
+    ],
+    "key": {
+      "s": {
+        "tag": "xov:fibers"
+      }
+    },
+    "result": {
+      "item": "xov:cordage"
+    }
+  }
+}

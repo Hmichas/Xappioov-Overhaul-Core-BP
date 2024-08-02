@@ -1,0 +1,15 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+      "description": {
+        "identifier": "xov:makeshift_handle",
+        "menu_category": {
+          "category": "equipment"
+        }
+      },
+      "components": {
+        "minecraft:max_stack_size": 8,
+        "minecraft:icon": "xov_makeshift_handle"
+      }
+    }
+  }

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "makeshift_handle.recipe"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "V ",
+        " |"
+      ],
+      "key": {
+        "|": {
+          "item": "xov:antler"
+        },
+        "V": {
+          "item": "xov:flint_handaxe"
+        }
+      },
+      "result": {
+        "item": "xov:makeshift_handle"
+      }
+    }
+  }

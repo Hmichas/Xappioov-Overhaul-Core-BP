@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "flint_knife.recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XV",
+      "/X"
+    ],
+    "key": {
+      "/": {
+        "item": "xov:makeshift_handle"
+      },
+      "X": {
+        "item": "xov:cordage"
+      },
+      "V": {
+        "item": "xov:flint_blade"
+      }
+    },
+    "result": {
+      "item": "xov:flint_knife"
+    }
+  }
+}
