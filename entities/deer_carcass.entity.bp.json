@@ -1,0 +1,49 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "xov:deer_carcass",
+            "is_summonable": true,
+            "is_spawnable": true
+        },
+        "components": {
+            "minecraft:health": {
+                "value": 1,
+                "min": 1
+            },
+            "minecraft:physics": { },
+            "minecraft:collision_box": {
+                "height": 0,
+                "width": 0
+            },
+            "minecraft:breathable": {
+                "breathes_solids": true,
+                "breathes_water": true
+            },
+            "minecraft:inside_block_notifier": {
+                "block_list": [
+                    {
+                        "block": "xov:deer_carcass_block",
+                        "exited_block_event": {
+                            "event": "despawn"
+                        }
+                    }
+                ]
+            }
+        },
+        "events": {
+            "depsawn": {
+                "add": {
+                    "component_groups": [
+                        "despawn"
+                    ]
+                }
+            }
+        },
+        "component_groups": {
+            "despawn": {
+                "minecraft:instant_despawn": { }
+            }
+        }
+    }
+}

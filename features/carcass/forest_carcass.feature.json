@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "xov:forest_carcass.feature"
+    },
+    "features": [
+      [
+        "xov:deer_carcass.feature",
+        2
+      ]
+    ]
+  }
+}

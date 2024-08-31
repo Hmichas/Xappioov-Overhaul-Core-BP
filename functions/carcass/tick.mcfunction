@@ -1,0 +1,1 @@
+execute as @e[type=xov:deer_carcass] unless block ~ ~ ~ xov:deer_carcass_block run scriptevent xov:despawn

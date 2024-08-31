@@ -1,0 +1,16 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:structure_template_feature": {
+      "description": {
+        "identifier": "xov:deer_carcass.feature"
+      },
+      "structure_name": "mystructure:deer_carcass",
+      "facing_direction": "random",
+      "adjustment_radius": 0,
+      "constraints": {
+        "grounded": { },
+        "unburied": { },
+        "block_intersection": { "block_allowlist": [ "minecraft:air" ] }
+      }
+    }
+  }
